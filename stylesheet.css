@@ -264,8 +264,10 @@
     
     .company-website-register {
         background-color: #0A2640;
-        background-image: url(./images/ellipse.png);
-        background-size: cover;
+        background-image: url(./images/background.png);
+        background-size: 800px;
+        background-position: top right;
+        background-repeat: no-repeat;
         color: white;
         border-radius: 20px;
         height: 391px;
