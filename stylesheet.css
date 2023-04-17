@@ -1,4 +1,4 @@
-    body {
+        body {
         margin: 0;
         font-family: sans-serif;
     }
@@ -309,22 +309,18 @@
     th,
     td {
         border: 1px solid none;
-    }
-    
-    .social-media {
-        width: 293px;
-    }
-    
-    .hiring {
-        border-radius: 16px;
-        color: #0a2640;
-        background-color: #65e4a3;
-        font-weight: 700;
-        font-size: 13px;
-        padding: 6px;
-    }
-    
-    .home {
-        color: #777777;
-        ;
-    }
+        .social-media {
+            width: 293px;
+        }
+        .hiring {
+            border-radius: 16px;
+            color: #0a2640;
+            background-color: #65e4a3;
+            font-weight: 700;
+            font-size: 13px;
+            padding: 6px;
+        }
+        .home {
+            color: #777777;
+            ;
+        }
