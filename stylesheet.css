@@ -1,326 +1,326 @@
-        body {
-        margin: 0;
-        font-family: sans-serif;
-    }
-    
-    .container {
-        width: 1200px;
-        margin: 0 auto;
-    }
-    
-    #header {
-        margin: 0 auto;
-        height: 473px;
-        background-color: #65e4a3;
-    }
-    
-    .header-top {
-        padding-top: 56px;
-        justify-content: space-between;
-        display: flex;
-        align-items: center;
-    }
-    
-    .navigation ul {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        margin: 0;
-        padding: 0;
-        font-weight: 600px;
-        font-size: 16px;
-        line-height: 28px;
-    }
-    
-    .navigation ul li {
-        font-family: "Manrope", sans-serif;
-        list-style: none;
-        font-size: 16px;
-    }
-    
-    .navigation {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .navigation ul li a {
-        text-decoration: none;
-        color: #0a2640;
-        padding-right: 40px;
-    }
-    
-    .navigation ul li:last-child a {
-        border: 2px solid #0a2640;
-        padding: 8px 40px;
-        border-radius: 24px;
-    }
-    
-    .header-left-bottom {
-        font-family: "Manrope", sans-serif;
-        line-height: 1.5;
-    }
-    
-    .header-left-bottom h3 {
-        color: #0a2640;
-        margin: 0;
-        font-weight: 100
-    }
-    
-    .header-left-bottom p {
-        font-size: 48px;
-        margin-top: 14px;
-        width: 573px;
-    }
-    
-    .header-right-bottom p {
-        font-family: "Open Sans", sans-serif;
-        width: 455px;
-        color: #0a2640;
-        margin-top: 55px;
-        line-height: 1.5;
-    }
-    
-    .header-bottom {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 100px;
-    }
-    
-    .our-numbers {
-        margin: 100px 0;
-        font-family: sans-serif;
-    }
-    
-    .our-numbers-top {
-        text-align: center;
-    }
-    
-    .our-numbers-top h3 {
-        font-weight: 100
-    }
-    
-    .our-numbers-top p {
-        font-size: 55px;
-    }
-    
-    .our-numbers-bottom {
-        align-items: center;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .cool-features h2 {
-        font-family: "sans-serif";
-        font-weight: 400;
-        font-size: 96px;
-        margin: 0 60px;
-    }
-    
-    .cool-features p {
-        font-size: 25px;
-        margin-left: 72px;
-    }
-    
-    .our-story {
-        background-color: #0A2640;
-    }
-    
-    .our-story-content {
-        padding: 120px 300px;
-        color: white;
-        font-size: 32px;
-        width: 979px;
-    }
-    
-    .our-story-content h2 {
-        font-size: 58px;
-        font-weight: 100;
-    }
-    
-    .our-story-content h3 {
-        font-weight: 100;
-        font-size: 30px;
-    }
-    
-    .our-story-content p {
-        width: 1060px;
-        font-weight: 100;
-        line-height: 1.5;
-        font-size: 28px;
-    }
-    
-    .our-team {
-        display: flex;
-        justify-content: center;
-    }
-    
-    .our-team-content h2 {
-        font-size: 48px;
-    }
-    
-    .our-team-content h3 {
-        color: #777777;
-        font-size: 29px;
-        font-weight: 100;
-    }
-    
-    .angel-investor {
-        font-size: 27px;
-    }
-    
-    .our-team-content p {
-        color: #777777;
-    }
-    
-    .our-team-content h1 {
-        font-weight: 100;
-    }
-    
-    .our-team-content {
-        width: 978px;
-        padding: 124px 250px;
-    }
-    
-    .michael-card {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .General-manager {
-        padding: 56px 75px;
-    }
-    
-    .General-manager-pic {
-        display: flex;
-        padding: 46px 148px 23px 0px;
-    }
-    
-    .General-manager-name {
-        padding: 0 24px;
-        width: 173px;
-    }
-    
-    .General-manager-list {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-    
-    .our-blog {
-        background-color: #0A2640;
-        color: white;
-        text-align: center;
-        display: flex;
-        font-weight: 100;
-    }
-    
-    .our-blog-top h1 {
-        font-size: 54px;
-        font-weight: 100;
-    }
-    
-    .our-blog h3 {
-        font-weight: 100;
-    }
-    
-    .our-blog-content {
-        padding: 120px 0;
-    }
-    
-    .right-reponsible p {
-        text-align: left;
-        font-family: "Open Sans";
-        font-size: 20px;
-        line-height: 32px;
-        margin-top: 60px;
-    }
-    
-    .left-reponsible p {
-        color: #ffffff;
-    }
-    
-    .right-reponsible {
-        width: 550px;
-    }
-    
-    .left-reponsible {
-        width: 550px;
-    }
-    
-    .responsible {
-        display: flex;
-        justify-content: space-evenly;
-        margin: 0 -220px
-    }
-    
-    .responsible h1 {
-        font-family: "Manrope";
-        font-weight: 400;
-        font-size: 48px;
-        line-height: 72px;
-    }
-    
-    .company-website-register {
-        background-color: #0A2640;
-        background-image: url(./images/background.png);
-        background-size: 800px;
-        background-position: top right;
-        background-repeat: no-repeat;
-        color: white;
-        border-radius: 20px;
-        height: 391px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .company-website {
-        margin: 124px 0;
-    }
-    
-    .company-website-top h2 {
-        font-weight: 400;
-        font-size: 57px;
-        padding: 0 172px;
-        font-weight: 100;
-    }
-    
-    .email {
-        border: 2px solid;
-        border-radius: 56px;
-        padding: 16px 56px;
-        font-size: 20px;
-        width: 272px;
-    }
-    
-    .start-now {
-        background: #65e4a3;
-        border: 2px solid #65e4a3;
-        border-radius: 56px;
-        padding: 16px 56px;
-        font-weight: 700;
-        font-size: 20px;
-    }
-    
-    .table,
-    th,
-    td {
-        border: 1px solid none;
-        .social-media {
-            width: 293px;
+            body {
+            margin: 0;
+            font-family: sans-serif;
         }
-        .hiring {
-            border-radius: 16px;
-            color: #0a2640;
+        
+        .container {
+            width: 1200px;
+            margin: 0 auto;
+        }
+        
+        #header {
+            margin: 0 auto;
+            height: 473px;
             background-color: #65e4a3;
-            font-weight: 700;
-            font-size: 13px;
-            padding: 6px;
         }
-        .home {
+        
+        .header-top {
+            padding-top: 56px;
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+        }
+        
+        .navigation ul {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            margin: 0;
+            padding: 0;
+            font-weight: 600px;
+            font-size: 16px;
+            line-height: 28px;
+        }
+        
+        .navigation ul li {
+            font-family: "Manrope", sans-serif;
+            list-style: none;
+            font-size: 16px;
+        }
+        
+        .navigation {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .navigation ul li a {
+            text-decoration: none;
+            color: #0a2640;
+            padding-right: 40px;
+        }
+        
+        .navigation ul li:last-child a {
+            border: 2px solid #0a2640;
+            padding: 8px 40px;
+            border-radius: 24px;
+        }
+        
+        .header-left-bottom {
+            font-family: "Manrope", sans-serif;
+            line-height: 1.5;
+        }
+        
+        .header-left-bottom h3 {
+            color: #0a2640;
+            margin: 0;
+            font-weight: 100
+        }
+        
+        .header-left-bottom p {
+            font-size: 48px;
+            margin-top: 14px;
+            width: 573px;
+        }
+        
+        .header-right-bottom p {
+            font-family: "Open Sans", sans-serif;
+            width: 455px;
+            color: #0a2640;
+            margin-top: 55px;
+            line-height: 1.5;
+        }
+        
+        .header-bottom {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 100px;
+        }
+        
+        .our-numbers {
+            margin: 100px 0;
+            font-family: sans-serif;
+        }
+        
+        .our-numbers-top {
+            text-align: center;
+        }
+        
+        .our-numbers-top h3 {
+            font-weight: 100
+        }
+        
+        .our-numbers-top p {
+            font-size: 55px;
+        }
+        
+        .our-numbers-bottom {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .cool-features h2 {
+            font-family: "sans-serif";
+            font-weight: 400;
+            font-size: 96px;
+            margin: 0 60px;
+        }
+        
+        .cool-features p {
+            font-size: 25px;
+            margin-left: 72px;
+        }
+        
+        .our-story {
+            background-color: #0A2640;
+        }
+        
+        .our-story-content {
+            padding: 120px 300px;
+            color: white;
+            font-size: 32px;
+            width: 979px;
+        }
+        
+        .our-story-content h2 {
+            font-size: 58px;
+            font-weight: 100;
+        }
+        
+        .our-story-content h3 {
+            font-weight: 100;
+            font-size: 30px;
+        }
+        
+        .our-story-content p {
+            width: 1060px;
+            font-weight: 100;
+            line-height: 1.5;
+            font-size: 28px;
+        }
+        
+        .our-team {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .our-team-content h2 {
+            font-size: 48px;
+        }
+        
+        .our-team-content h3 {
             color: #777777;
-            ;
+            font-size: 29px;
+            font-weight: 100;
         }
+        
+        .angel-investor {
+            font-size: 27px;
+        }
+        
+        .our-team-content p {
+            color: #777777;
+        }
+        
+        .our-team-content h1 {
+            font-weight: 100;
+        }
+        
+        .our-team-content {
+            width: 978px;
+            padding: 124px 250px;
+        }
+        
+        .michael-card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .General-manager {
+            padding: 56px 75px;
+        }
+        
+        .General-manager-pic {
+            display: flex;
+            padding: 46px 148px 23px 0px;
+        }
+        
+        .General-manager-name {
+            padding: 0 24px;
+            width: 173px;
+        }
+        
+        .General-manager-list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .our-blog {
+            background-color: #0A2640;
+            color: white;
+            text-align: center;
+            display: flex;
+            font-weight: 100;
+        }
+        
+        .our-blog-top h1 {
+            font-size: 54px;
+            font-weight: 100;
+        }
+        
+        .our-blog h3 {
+            font-weight: 100;
+        }
+        
+        .our-blog-content {
+            padding: 120px 0;
+        }
+        
+        .right-reponsible p {
+            text-align: left;
+            font-family: "Open Sans";
+            font-size: 20px;
+            line-height: 32px;
+            margin-top: 60px;
+        }
+        
+        .left-reponsible p {
+            color: #ffffff;
+        }
+        
+        .right-reponsible {
+            width: 550px;
+        }
+        
+        .left-reponsible {
+            width: 550px;
+        }
+        
+        .responsible {
+            display: flex;
+            justify-content: space-evenly;
+            margin: 0 -220px
+        }
+        
+        .responsible h1 {
+            font-family: "Manrope";
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 72px;
+        }
+        
+        .company-website-register {
+            background-color: #0A2640;
+            background-image: url(./images/background.png);
+            background-size: 800px;
+            background-position: top right;
+            background-repeat: no-repeat;
+            color: white;
+            border-radius: 20px;
+            height: 391px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .company-website {
+            margin: 124px 0;
+        }
+        
+        .company-website-top h2 {
+            font-weight: 400;
+            font-size: 57px;
+            padding: 0 172px;
+            font-weight: 100;
+        }
+        
+        .email {
+            border: 2px solid;
+            border-radius: 56px;
+            padding: 16px 56px;
+            font-size: 20px;
+            width: 272px;
+        }
+        
+        .start-now {
+            background: #65e4a3;
+            border: 2px solid #65e4a3;
+            border-radius: 56px;
+            padding: 16px 56px;
+            font-weight: 700;
+            font-size: 20px;
+        }
+        
+        .table,
+        th,
+        td {
+            border: 1px solid none;
+            .social-media {
+                width: 293px;
+            }
+            .hiring {
+                border-radius: 16px;
+                color: #0a2640;
+                background-color: #65e4a3;
+                font-weight: 700;
+                font-size: 13px;
+                padding: 6px;
+            }
+            .home {
+                color: #777777;
+                ;
+            }
