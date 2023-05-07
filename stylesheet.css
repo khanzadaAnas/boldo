@@ -545,7 +545,7 @@ body {
 }
 
 .company-website-register {
-    background-color: #0A2640;
+    background-color: #0a2640;
     background-image: url(./images/background.png);
     background-size: 800px;
     background-position: top right;
@@ -655,7 +655,7 @@ body {
 .main-top {
     color: white;
     margin: 0 auto;
-    background-color: #0A2640;
+    background-color: #0a2640;
     height: 484px;
 }
 
@@ -744,7 +744,7 @@ body {
 
 .our-numbers-about {
     font-family: sans-serif;
-    background-color: #0A2640;
+    background-color: #0a2640;
     padding: 120px 300px;
     color: white;
 }
@@ -754,7 +754,7 @@ body {
 }
 
 .our-numbers-top-about h3 {
-    font-weight: 100
+    font-weight: 100;
 }
 
 .our-numbers-top-about p {
@@ -786,8 +786,8 @@ body {
 }
 
 .our-value-about {
-    background-color: #0A2640;
-    padding: 124px 950px;
+    background-color: #0a2640;
+    /* padding: 124px 950px; */
     color: white;
     display: flex;
     justify-content: center;
@@ -808,4 +808,355 @@ body {
 
 .General-manager-name-about {
     width: 550px;
+}
+
+
+/* home-page css */
+
+.save-time h1 {
+    font-weight: 100;
+    padding-right: 287px;
+}
+
+.save-time p {
+    color: #777777;
+    padding-right: 139px;
+}
+
+.buy {
+    background: #0a2640;
+    border: 2px solid #0a2640;
+    border-radius: 56px;
+    padding: 16px 0px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.explore {
+    background: white;
+    border: 2px solid #0a2640;
+    border-radius: 56px;
+    padding: 16px 56px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #0a2640;
+}
+
+.below-nav {
+    display: flex;
+    align-items: center;
+    margin-top: 55px;
+}
+
+#headers {
+    background-image: url(./images/arc.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo-bar {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.logo-bar img {
+    padding-left: 49px;
+}
+
+.our-services {
+    background-color: #0a2640;
+    color: white;
+    padding: 30px 0;
+}
+
+.our-services-top {
+    text-align: center;
+    padding: 0 564px 36px 564px;
+}
+
+.our-services-top h4 {
+    font-weight: 100;
+}
+
+.our-services-top h1 {
+    font-weight: 100;
+}
+
+.our-services-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.cool-feature-title {
+    padding: 40px;
+}
+
+.cool-feature-title h2 {
+    font-weight: 100;
+}
+
+.icons {
+    font-weight: 900;
+}
+
+.fa-solid {
+    padding-left: 5px;
+}
+
+.explore-page p {
+    border-bottom: solid 1px;
+    width: 118px;
+    padding-bottom: 8px;
+}
+
+.third-section-content {
+    display: flex;
+    align-items: center;
+    padding: 90px;
+}
+
+.third-section-right {
+    padding: 1px 83px 0 243px;
+}
+
+.third-section-right h2 {
+    font-weight: 100;
+}
+
+.three-lines {
+    padding-right: 10px;
+}
+
+.three-lines-button {
+    background-color: #0a2640;
+    color: white;
+}
+
+.third-section-left {
+    padding-left: 52px;
+}
+
+.pin {
+    background-color: #0a2640;
+    color: white;
+}
+
+.eye {
+    border: solid 3px rgb(247, 234, 234);
+    height: 70px;
+    align-items: center;
+    display: flex;
+    padding-left: 30px;
+    box-shadow: 3px 5px #cdcdcd;
+    margin-bottom: 20px;
+}
+
+.sun {
+    padding-right: 10px;
+}
+
+.fourth-section-left h2 {
+    font-weight: 100;
+    font-size: 39px;
+}
+
+.fourth-section-content {
+    display: flex;
+    align-items: center;
+}
+
+.fourth-section-left {
+    padding-left: 41px;
+    padding-right: 179px;
+}
+
+.fifth-section {
+    background-color: #0a2640;
+    color: white;
+}
+
+.fifth-section-top {
+    display: flex;
+}
+
+.fifth-section-top-left h1 {
+    font-weight: 100;
+    width: 784px;
+    font-size: 53px;
+}
+
+.arrow {
+    border: 2px solid;
+    border-radius: 36px;
+    padding: 16px 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.arrows {
+    margin-top: 109px;
+    margin-left: 201px;
+}
+
+.first-box {
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.first-box h4 {
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.first-box-content {
+    padding: 26px;
+    margin-top: 40px;
+    margin-right: 68px;
+}
+
+.writters {
+    display: flex;
+    align-items: center;
+}
+
+.writters p {
+    color: #777777;
+}
+
+.albus {
+    padding-left: 17px;
+    padding-top: 20px;
+}
+
+.albus h6 {
+    margin: 0;
+}
+
+.fifth-section-bottom {
+    display: flex;
+}
+
+.manager {
+    height: fit-content;
+    width: 747px;
+}
+
+.manager h4 {
+    font-size: 24px;
+}
+
+.Dumbledore {
+    height: 243px;
+}
+
+.Gryffindor {
+    height: fit-content;
+    width: 686px;
+}
+
+.fifth-section-content {
+    padding: 80px 0px;
+}
+
+.anroid {
+    border: none;
+    background-color: white;
+    border-bottom: 1px solid #777777;
+}
+
+.sixth-section-bottom {
+    display: flex;
+}
+
+.sixth-section-bottom-left {
+    width: 603px;
+    font-size: 41px;
+}
+
+.sixth-section-bottom-left h4 {
+    font-weight: 100;
+}
+
+.sixth-section-bottom-right {
+    margin-top: 50px;
+    line-height: 58px;
+    margin-left: 65px;
+}
+
+.customers {
+    padding-left: 145px;
+}
+
+.rockstar {
+    padding-left: 140px;
+}
+
+.sixth-section-content {
+    padding: 112px 0px;
+}
+
+.seventh-section-top {
+    text-align: center;
+    padding: 0 335px 36px 335px;
+}
+
+.seventh-section-top h4 {
+    color: #777777;
+}
+
+.seventh-section-top h2 {
+    font-weight: 100;
+}
+
+
+/* homepage-css */
+
+#headerss {
+    background-color: #0a2640;
+    color: white;
+    padding-bottom: 9px;
+    background-image: url(./images/archeader.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.services-white {
+    background-color: white;
+    color: #000;
+}
+
+.services-white-top h4 {
+    color: #777777;
+}
+
+.effects h4 {
+    font-weight: 100;
+    width: 229px;
+}
+
+.buy-second {
+    background-color: #65e4a3;
+    color: #000;
+}
+
+.explore-second {
+    background-color: #0a2640;
+    border: 2px solid white;
+    color: white;
+}
+
+.position {
+    position: absolute;
+}
+
+.logo-second {
+    margin-top: 52px;
+    margin-bottom: 40px;
 }
